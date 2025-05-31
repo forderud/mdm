@@ -151,7 +151,7 @@ func EnrollHandler(w http.ResponseWriter, r *http.Request) {
 			<characteristic type="APPLICATION">
 				<parm name="APPID" value="w7" />
 				<parm name="PROVIDER-ID" value="PoC MDM Server" />
-				<parm name="NAME" value="PoC Server" />
+				<parm name="NAME" value="MyCompany IB fleet" />
 				<parm name="ADDR" value="https://` + domain + `/ManagementServer/MDM.svc" />
 				<parm name="ServerList" value="https://` + domain + `/ManagementServer/ServerList.svc" />
 				<parm name="ROLE" value="4294967295" />
@@ -177,7 +177,7 @@ func EnrollHandler(w http.ResponseWriter, r *http.Request) {
 			<characteristic type="DMClient">
 				<characteristic type="Provider">
 					<characteristic type="PoC MDM Server">
-						<parm name="UPN" value="infected@pocmdmserver.com" />	
+						<parm name="UPN" value="someuser@pocmdmserver.com" />	
 						<parm name="EnableOmaDmKeepAliveMessage" value="true" datatype="boolean" />
 						<characteristic type="Poll">
 							<parm name="NumberOfFirstRetries" value="0" datatype="integer" />
