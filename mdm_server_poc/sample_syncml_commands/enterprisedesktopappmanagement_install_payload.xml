@@ -2,7 +2,7 @@
   <CmdID>xxcmdidxx</CmdID>
   <Item>
 	<Target>
-	  <LocURI>./Device/Vendor/MSFT/EnterpriseDesktopAppManagement/MSI/%7Bf5645004-3214-46ea-92c2-48835689da06%7D/DownloadInstall</LocURI>
+	  <LocURI>./Device/Vendor/MSFT/EnterpriseDesktopAppManagement/MSI/%7BD469B745-B0D1-488F-BB01-C413CFF43EFF%7D/DownloadInstall</LocURI>
 	</Target>
   </Item>
 </Add>
@@ -10,17 +10,17 @@
   <CmdID>xxcmdidxx</CmdID>
   <Item>
 	<Target>
-	  <LocURI>./Device/Vendor/MSFT/EnterpriseDesktopAppManagement/MSI/%7Bf5645004-3214-46ea-92c2-48835689da06%7D/DownloadInstall</LocURI>
+	  <LocURI>./Device/Vendor/MSFT/EnterpriseDesktopAppManagement/MSI/%7BD469B745-B0D1-488F-BB01-C413CFF43EFF%7D/DownloadInstall</LocURI>
 	</Target>
-	<Data>&lt;MsiInstallJob id="{f5645004-3214-46ea-92c2-48835689da06}"&gt;
+	<Data>&lt;MsiInstallJob id="{D469B745-B0D1-488F-BB01-C413CFF43EFF}"&gt;
 							&lt;Product Version="1.0.0.0"&gt;
 								&lt;Download&gt;
 									&lt;ContentURLList&gt;
-										&lt;ContentURL&gt;https://enterpriseenrollment.pocmdmserver.com/static/payload.msi&lt;/ContentURL&gt;
+										&lt;ContentURL&gt;https://enterpriseenrollment.pocmdmserver.com/static/MyApp.msi&lt;/ContentURL&gt;
 									&lt;/ContentURLList&gt;
 								&lt;/Download&gt;
 								&lt;Validation&gt;
-									&lt;FileHash&gt;7D127BA8F8CC5937DB3052E2632D672120217D910E271A58565BBA780ED8F05C&lt;/FileHash&gt;
+									&lt;FileHash&gt;DA9A77D8B6D8A367E057ACCE9E271FE290AAD1D1C71D07B2593BB90DBA3A75BF&lt;/FileHash&gt;
 								&lt;/Validation&gt;
 								&lt;Enforcement&gt;
 									&lt;CommandLine&gt;/quiet&lt;/CommandLine&gt;
